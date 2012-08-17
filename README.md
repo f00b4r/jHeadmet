@@ -1,4 +1,4 @@
-jheadmet
+jHeadmet
 ========
 
 HTML Meta tags generator
