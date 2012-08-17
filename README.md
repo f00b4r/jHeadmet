@@ -1,4 +1,4 @@
 jHeadmet
 ========
 
-HTML Meta tags generator
+HTML Meta Tags Generator
