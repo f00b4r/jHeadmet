@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
@@ -71,7 +71,7 @@
               <JTabbedPaneConstraints tabName="meta">
                 <Property name="tabTitle" type="java.lang.String" value="meta"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/meta.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/meta.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -210,7 +210,7 @@
               <JTabbedPaneConstraints tabName="facebook">
                 <Property name="tabTitle" type="java.lang.String" value="facebook"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/fb.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/fb.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -229,7 +229,7 @@
                   <JTabbedPaneConstraints tabName="z&#xe1;kladn&#xed;">
                     <Property name="tabTitle" type="java.lang.String" value="z&#xe1;kladn&#xed;"/>
                     <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/jheadmet/icons/spellcheck.png"/>
+                      <Image iconType="3" name="/cz/jfx/jheadmet/resources/spellcheck.png"/>
                     </Property>
                   </JTabbedPaneConstraints>
                 </Constraint>
@@ -457,7 +457,7 @@
                   <JTabbedPaneConstraints tabName="kontakt">
                     <Property name="tabTitle" type="java.lang.String" value="kontakt"/>
                     <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/jheadmet/icons/email.png"/>
+                      <Image iconType="3" name="/cz/jfx/jheadmet/resources/email.png"/>
                     </Property>
                   </JTabbedPaneConstraints>
                 </Constraint>
@@ -536,7 +536,7 @@
                   <JTabbedPaneConstraints tabName="pozice">
                     <Property name="tabTitle" type="java.lang.String" value="pozice"/>
                     <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/jheadmet/icons/map.png"/>
+                      <Image iconType="3" name="/cz/jfx/jheadmet/resources/map.png"/>
                     </Property>
                   </JTabbedPaneConstraints>
                 </Constraint>
@@ -671,7 +671,7 @@
                   <JTabbedPaneConstraints tabName="video">
                     <Property name="tabTitle" type="java.lang.String" value="video"/>
                     <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/jheadmet/icons/film.png"/>
+                      <Image iconType="3" name="/cz/jfx/jheadmet/resources/film.png"/>
                     </Property>
                   </JTabbedPaneConstraints>
                 </Constraint>
@@ -781,7 +781,7 @@
                   <JTabbedPaneConstraints tabName="zvuk">
                     <Property name="tabTitle" type="java.lang.String" value="zvuk"/>
                     <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/jheadmet/icons/music.png"/>
+                      <Image iconType="3" name="/cz/jfx/jheadmet/resources/music.png"/>
                     </Property>
                   </JTabbedPaneConstraints>
                 </Constraint>
@@ -909,7 +909,7 @@
               <JTabbedPaneConstraints tabName="boti">
                 <Property name="tabTitle" type="java.lang.String" value="boti"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/magnifier.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/magnifier.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -1079,7 +1079,7 @@
               <JTabbedPaneConstraints tabName="styly">
                 <Property name="tabTitle" type="java.lang.String" value="styly"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/css.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/css.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -1224,7 +1224,7 @@
               <JTabbedPaneConstraints tabName="scripty">
                 <Property name="tabTitle" type="java.lang.String" value="scripty"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/js.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/js.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -1481,7 +1481,7 @@
               <JTabbedPaneConstraints tabName="rss">
                 <Property name="tabTitle" type="java.lang.String" value="rss"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/rss.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/rss.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -1707,7 +1707,7 @@
               <JTabbedPaneConstraints tabName="nastaven&#xed;">
                 <Property name="tabTitle" type="java.lang.String" value="nastaven&#xed;"/>
                 <Property name="tabIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jheadmet/icons/settings.png"/>
+                  <Image iconType="3" name="/cz/jfx/jheadmet/resources/settings.png"/>
                 </Property>
               </JTabbedPaneConstraints>
             </Constraint>
@@ -1944,7 +1944,7 @@
         <Component class="javax.swing.JButton" name="exit">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/jheadmet/icons/close.png"/>
+              <Image iconType="3" name="/cz/jfx/jheadmet/resources/close.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Zav&#x159;&#xed;t"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -1962,7 +1962,7 @@
         <Component class="javax.swing.JButton" name="info">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/jheadmet/icons/info.png"/>
+              <Image iconType="3" name="/cz/jfx/jheadmet/resources/info.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Info"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -1978,7 +1978,7 @@
         <Component class="javax.swing.JButton" name="generate">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/jheadmet/icons/generate.png"/>
+              <Image iconType="3" name="/cz/jfx/jheadmet/resources/generate.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Generovat k&#xf3;d"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">

@@ -1,14 +1,14 @@
-package jheadmet;
+package cz.jfx.jheadmet;
 
-import jheadmet.GUI.Output;
-import jheadmet.GUI.MainWindow;
-import javax.swing.UIManager;
+import cz.jfx.jheadmet.app.Processor;
+import cz.jfx.jheadmet.app.Templates;
+import cz.jfx.jheadmet.app.gui.Output;
 
 /**
  *
  * @author Felix
  */
-public class Headmet extends Processor {
+public class Application extends Processor {
 
     /* promenne */
     public Output outputWindow = new Output();
@@ -42,25 +42,25 @@ public class Headmet extends Processor {
 
     /* zobrazi vsechno */
     public void printAll() {
-        
+
         // zacatek html skeletonu
-        if(this.skeleton){
-            if(!"null".equals(this.processDoctype())){
+        if (this.skeleton) {
+            if (!"null".equals(this.processDoctype())) {
                 this.outputWindow.add(this.processDoctype());
             }
             this.outputWindow.add(Templates.skeleton_begin);
         }
-        
+
         // renderovani..
         for (String d : this.output) {
-            this.outputWindow.add((this.skeleton?"\t":"")+d);
+            this.outputWindow.add((this.skeleton ? "\t" : "") + d);
         }
 
         // konec html skeletonu
-        if(this.skeleton){
+        if (this.skeleton) {
             this.outputWindow.add(Templates.skeleton_end);
         }
-        
+
         // vycisti vsechno
         this.clearAll();
     }
@@ -108,48 +108,5 @@ public class Headmet extends Processor {
     // otevre okno
     public void openOutput() {
         this.outputWindow.setVisible(true);
-    }
-
-    public static void main(String[] args) {
-
-        // nastavi spravnej vzhled
-        try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } catch (Exception e) {
-        }
-        
-        /*
-        Meta app = new Meta();
-        app.addTo("settings", new String[]{"doctype", "XHTML_1_FRAMESET"});
-        app.addTo("settings", new String[]{"charset", "UTF-8"});
-        
-        app.addTo("meta", new String[]{"title", "MUJ WEBIK"});
-        app.addTo("meta", new String[]{"author", "ASDASD"});
-        app.addTo("settings", new String[]{"favicon", "test.ico"});
-        
-        app.addTo("og", new String[]{"title", "hahahah"});
-        app.addTo("og", new String[]{"admins", "123132"});
-        
-        app.addTo("og_video", new String[]{"title", "sdasd"});
-        app.addTo("og_video", new String[]{"admins", "xdasd"});
-        
-        app.addTo("scripts", new String[]{"test.js"});
-        app.addTo("styles", new String[]{"theme.css", "screen"});
-        
-        app.processAll();
-         */
-        // zalozi instanci
-        final Headmet app = new Headmet();
-
-        // spusti okno
-        java.awt.EventQueue.invokeLater(new Runnable() {
-
-            public void run() {
-                MainWindow f = new MainWindow();
-                f.meta = app;
-                f.setVisible(true);
-            }
-        });
-
     }
 }

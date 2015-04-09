@@ -1,4 +1,4 @@
-package jheadmet;
+package cz.jfx.jheadmet.app;
 
 /**
  *
@@ -6,6 +6,7 @@ package jheadmet;
  */
 public class Templates {
     /* sablony */
+
     public static String meta = "<meta name=\"%s\" content=\"%s\"%s>";
     public static String meta_og = "<meta property=\"%s\" content=\"%s\"%s>";
     public static String title = "<title>%s</title>";

@@ -1,4 +1,4 @@
-package jheadmet.external;
+package cz.jfx.jheadmet.app.external;
 
 /**
  *
@@ -17,7 +17,7 @@ public class Scripts {
     public static final String GOOGLE_WEBFONT = "https://ajax.googleapis.com/ajax/libs/webfont/1.0.19/webfont.js";
     public static final String GOOGLE_EXT_CORE = "https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js";
     public static final String GOOGLE_CHROME_FRAME = "https://ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js";
-    public static final String GOOGLE_DOJO = "https://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dojo/dojo.xd.js";   
+    public static final String GOOGLE_DOJO = "https://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dojo/dojo.xd.js";
     public static final String GOOGLE_MAPS_API = "http://maps.google.com/maps/api/js?sensor=set_to_true_or_false";
     public static final String GOOGLE_JSAPI = "https://www.google.com/jsapi?key=INSERT-YOUR-KEY";
 
@@ -30,7 +30,7 @@ public class Scripts {
 
     /* FACEBOOK */
     public static final String FACEBOOK_API = "http://connect.facebook.net/en_US/all.js#xfbml=1";
-    
+
     /* MAPY.cz */
     public static final String MAPY_CZ_API = "http://api4.mapy.cz/loader.js";
 

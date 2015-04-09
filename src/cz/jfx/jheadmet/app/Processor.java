@@ -1,4 +1,4 @@
-package jheadmet;
+package cz.jfx.jheadmet.app;
 
 import java.util.ArrayList;
 
@@ -9,18 +9,18 @@ import java.util.ArrayList;
 public class Processor {
 
     /* array listy */
-    public ArrayList<String[]> settings = new ArrayList<String[]>();
-    public ArrayList<String[]> bots = new ArrayList<String[]>();
-    public ArrayList<String[]> scripts = new ArrayList<String[]>();
-    public ArrayList<String[]> styles = new ArrayList<String[]>();
-    public ArrayList<String[]> meta = new ArrayList<String[]>();
-    public ArrayList<String[]> rss = new ArrayList<String[]>();
-    public ArrayList<String[]> og = new ArrayList<String[]>();
-    public ArrayList<String[]> og_video = new ArrayList<String[]>();
-    public ArrayList<String[]> og_audio = new ArrayList<String[]>();
-    public ArrayList<String[]> og_location = new ArrayList<String[]>();
-    public ArrayList<String[]> og_contact = new ArrayList<String[]>();
-    protected ArrayList<String> output = new ArrayList<String>();
+    public ArrayList<String[]> settings = new ArrayList<>();
+    public ArrayList<String[]> bots = new ArrayList<>();
+    public ArrayList<String[]> scripts = new ArrayList<>();
+    public ArrayList<String[]> styles = new ArrayList<>();
+    public ArrayList<String[]> meta = new ArrayList<>();
+    public ArrayList<String[]> rss = new ArrayList<>();
+    public ArrayList<String[]> og = new ArrayList<>();
+    public ArrayList<String[]> og_video = new ArrayList<>();
+    public ArrayList<String[]> og_audio = new ArrayList<>();
+    public ArrayList<String[]> og_location = new ArrayList<>();
+    public ArrayList<String[]> og_contact = new ArrayList<>();
+    protected ArrayList<String> output = new ArrayList<>();
     public boolean skeleton = false;
 
     /* zpracuje nastaveni */

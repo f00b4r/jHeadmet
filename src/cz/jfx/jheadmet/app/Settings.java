@@ -1,4 +1,4 @@
-package jheadmet;
+package cz.jfx.jheadmet.app;
 
 /**
  *
@@ -9,7 +9,7 @@ public class Settings {
     /* program */
     public static final String VERSION = "2.2";
     public static final String UPDATE = "29.6. 2011 - 15:00";
-    
+
     /* doctype */
     public static final String HTML_4_STRICT = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">";
     public static final String HTML_4_TRANSITIONAL = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">";
@@ -28,6 +28,6 @@ public class Settings {
     public static final int FORMAT_STYLES = 50;
     public static final int FORMAT_SCRIPTS = 51;
     public static final int FORMAT_RSS = 52;
-    public static final int FORMAT_COMMENTS = 99; 
+    public static final int FORMAT_COMMENTS = 99;
 
 }

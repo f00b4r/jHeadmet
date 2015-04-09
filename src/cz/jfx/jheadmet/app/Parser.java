@@ -1,4 +1,4 @@
-package jheadmet;
+package cz.jfx.jheadmet.app;
 
 /**
  *
@@ -37,7 +37,7 @@ public class Parser {
         Parser.isRelativePath = path;
     }
 
-     /* vraci url */
+    /* vraci url */
     public static String getUrl() {
         return Parser.url_base;
     }
@@ -46,7 +46,7 @@ public class Parser {
     public static void setUrl(String url_base) {
         Parser.url_base = url_base;
     }
-    
+
     /* zkontroluje url */
     public static String rightUrl(String url) {
         // TODO
@@ -83,7 +83,7 @@ public class Parser {
     public static String rightRssExt(String file) {
         return Parser.rightExtension(file, "rss");
     }
-    
+
     /* zkontroluje obecne koncovku */
     public static String rightExtension(String file, String ext) {
         if (file.endsWith("." + ext)) {
@@ -94,15 +94,15 @@ public class Parser {
     }
 
     /* vycisti retezec */
-    public static String cleanString(String str){
+    public static String cleanString(String str) {
         str = str.trim();
         return str;
     }
-    
+
     // naplni sablonu
     public static String parse(String name, String content, int format) {
         String template, temp;
-        
+
         // odstraneni mezer apod
         name = Parser.cleanString(name);
         content = Parser.cleanString(content);
